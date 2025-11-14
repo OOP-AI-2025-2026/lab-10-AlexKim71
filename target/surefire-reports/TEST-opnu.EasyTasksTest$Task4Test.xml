@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/aleksandr/IdeaProjects/lab-10-AlexKim71/target/surefire/surefirebooter-20251114170255563_3.jar /home/aleksandr/IdeaProjects/lab-10-AlexKim71/target/surefire 2025-11-14T17-02-50_635-jvmRun1 surefire-20251114170255563_1tmp surefire_0-20251114170255563_2tmp"/>
+    <property name="sun.java.command" value="/home/aleksandr/IdeaProjects/lab-10-AlexKim71/target/surefire/surefirebooter-20251114172927895_3.jar /home/aleksandr/IdeaProjects/lab-10-AlexKim71/target/surefire 2025-11-14T17-29-27_614-jvmRun1 surefire-20251114172927895_1tmp surefire_0-20251114172927895_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/aleksandr/IdeaProjects/lab-10-AlexKim71/target/test-classes:/home/aleksandr/IdeaProjects/lab-10-AlexKim71/target/classes:/home/aleksandr/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/home/aleksandr/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/home/aleksandr/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/aleksandr/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/home/aleksandr/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/home/aleksandr/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/aleksandr/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/aleksandr/IdeaProjects/lab-10-AlexKim71/target/surefire/surefirebooter-20251114170255563_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/aleksandr/IdeaProjects/lab-10-AlexKim71/target/surefire/surefirebooter-20251114172927895_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.9-ea+8-Ubuntu-1"/>
     <property name="user.name" value="aleksandr"/>
@@ -56,8 +56,8 @@
   <testcase name="test1(List, List)[1]" classname="opnu.EasyTasksTest$Task4Test" time="0.002"/>
   <testcase name="test1(List, List)[2]" classname="opnu.EasyTasksTest$Task4Test" time="0.001"/>
   <testcase name="test1(List, List)[3]" classname="opnu.EasyTasksTest$Task4Test" time="0"/>
-  <testcase name="test1(List, List)[4]" classname="opnu.EasyTasksTest$Task4Test" time="0"/>
+  <testcase name="test1(List, List)[4]" classname="opnu.EasyTasksTest$Task4Test" time="0.001"/>
   <testcase name="test1(List, List)[5]" classname="opnu.EasyTasksTest$Task4Test" time="0"/>
-  <testcase name="test1(List, List)[6]" classname="opnu.EasyTasksTest$Task4Test" time="0.001"/>
-  <testcase name="test1(List, List)[7]" classname="opnu.EasyTasksTest$Task4Test" time="0.001"/>
+  <testcase name="test1(List, List)[6]" classname="opnu.EasyTasksTest$Task4Test" time="0"/>
+  <testcase name="test1(List, List)[7]" classname="opnu.EasyTasksTest$Task4Test" time="0"/>
 </testsuite>
