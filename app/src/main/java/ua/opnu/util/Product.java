@@ -8,74 +8,28 @@ public class Product {
     private String name;
     private String category;
     private Double price;
-    private Set<Order> orders;
+    private Set<Order> orders = new HashSet<>();
 
     public Product(Integer id, String name, String category, Double price) {
         this.id = id;
         this.name = name;
         this.category = category;
         this.price = price;
-
-        orders = new HashSet<>();
     }
 
+    public Integer getId() { return id; }
+    public String getName() { return name; }
+    public String getCategory() { return category; }
+    public Double getPrice() { return price; }
+    public void setPrice(Double price) { this.price = price; }
+    public Set<Order> getOrders() { return orders; }
+    
     public void addOrder(Order order) {
-        orders.add(order);
+        this.orders.add(order);
     }
-
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Double getPrice() {
-        return price;
-    }
-
-    public void setPrice(Double price) {
-        this.price = price;
-    }
-
 
     @Override
     public String toString() {
-
-        StringBuilder builder = new StringBuilder();
-
-        builder.append("id=");
-        builder.append(id);
-        builder.append(" name=");
-        builder.append(name);
-        builder.append(" category=");
-        builder.append(category);
-        builder.append(" price=");
-        builder.append(price);
-        builder.append(" orders=[" );
-        orders.forEach(i -> {
-            builder.append(i.getId());
-            builder.append(", ");
-        });
-        builder.append("]" );
-
-        return builder.toString();
+        return "Product{id=" + id + ", name='" + name + "', category='" + category + "', price=" + price + "}";
     }
 }

@@ -11,43 +11,52 @@ public class EasyTasks {
     }
 
     public List<Integer> doubling(List<Integer> nums) {
-        // TODO: напишіть вміст методу згідно умовам для того, щоб пройти тести
-        return null;
+        return nums.stream()
+                .map(n -> n * 2)
+                .collect(java.util.stream.Collectors.toList());
     }
 
     public List<Integer> square(List<Integer> nums) {
-        // TODO: напишіть вміст методу згідно умовам для того, щоб пройти тести
-        return null;
+        return nums.stream()
+                .map(n -> n * n)
+                .collect(java.util.stream.Collectors.toList());
     }
 
     public List<String> moreY(List<String> strings) {
-        // TODO: напишіть вміст методу згідно умовам для того, щоб пройти тести
-        return null;
+        return strings.stream()
+                .map(s -> "y" + s + "y")
+                .collect(java.util.stream.Collectors.toList());
     }
 
     public List<Integer> noNeg(List<Integer> nums) {
-        // TODO: напишіть вміст методу згідно умовам для того, щоб пройти тести
-        return null;
+        return nums.stream()
+                .filter(n -> n >= 0)
+                .collect(java.util.stream.Collectors.toList());
     }
 
     public List<Integer> no9(List<Integer> nums) {
-        // TODO: напишіть вміст методу згідно умовам для того, щоб пройти тести
-        return null;
+        return nums.stream()
+                .filter(n -> n % 10 != 9)
+                .collect(java.util.stream.Collectors.toList());
     }
 
     public List<String> noZ(List<String> strings) {
-        // TODO: напишіть вміст методу згідно умовам для того, щоб пройти тести
-        return null;
+        return strings.stream()
+                .filter(s -> !s.contains("z"))
+                .collect(java.util.stream.Collectors.toList());
     }
 
     public List<String> refinedStrings(List<String> strings) {
-        // TODO: напишіть вміст методу згідно умовам для того, щоб пройти тести
-        return null;
+        return strings.stream()
+                .distinct()
+                .sorted(java.util.Comparator.comparing(String::length).reversed())
+                .collect(java.util.stream.Collectors.toList());
     }
 
     public List<String> flatten(List<String> strings) {
-        // TODO: напишіть вміст методу згідно умовам для того, щоб пройти тести
-        return null;
+        return strings.stream()
+                .flatMap(s -> java.util.Arrays.stream(s.split(" ")))
+                .collect(java.util.stream.Collectors.toList());
     }
 
 }
